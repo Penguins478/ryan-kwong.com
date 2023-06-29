@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Stack Developer",
+    icon: mobile,
+  },
+  {
+    title: "Student",
     icon: creator,
   },
 ];
@@ -116,8 +116,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Engineer Intern",
+    company_name: "Beaverton Kitchen Cabinet and Stone, Inc.",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
