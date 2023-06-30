@@ -13,16 +13,24 @@ import {
   nodejs,
   mongodb,
   git,
+  java,
+  sql,
+  c,
+  py,
   figma,
   docker,
   meta,
-  starbucks,
+  bkc,
+  inogen,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  madewunity,
+  stock,
+  tetris,
 } from "../assets";
 
 export const navLinks = [
@@ -72,18 +80,18 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -101,72 +109,62 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "Python",
+    icon: py,
+  },
+  {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "Beaverton Kitchen Cabinet and Stone, Inc.",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    icon: bkc,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an internal data dashboard using React web client, Django REST backend service, and Node to display customer information and purchase history",
+      "Architected a two-factor authentication system for the internal dashboard to strengthen security within the workplace",
+      "Improved user organization and search efficiency with filters by reducing overall data processing time by 32%",
+      "Created a 3D modeling software using Unity3D and C# that randomly generates kitchen layouts with a given inventory",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Data Science Researcher",
+    company_name: "Inogen",
+    icon: inogen,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Researched the correlations between mechanical aspects of portable air concentrators and their performance by analyzing and processing data on voltage, power, and oxygen levels",
+      "Collaborated with mentors from Inogen in an Agile environment to create relevant graphs from data derived from portable air concentrators using Python, SQL, R, and MongoDB to find significant associations",
+      "Utilized OpenCV and Tensorflow to create an OCR script that translates PDF files to CSV files with 95% overall accuracy for simple data storage of health documents",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
@@ -198,67 +196,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Machine Learning Tetris Bot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Utilized Q-learning techniques and a Deep Neural Network (DNN) to train a bot to play classic Tetris optimally.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "tensorflow",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "keras",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tetris,
+    source_code_link: "https://github.com/Penguins478/MachineLearningTetrisBot",
   },
   {
-    name: "Job IT",
+    name: "Quantitative Stock Prediction App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Training an LSTM model on historic daily closing values to predict the value of publicly traded stocks. View it on the web app.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "sklearn",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "keras",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: stock,
+    source_code_link: "https://github.com/Penguins478/LSTM-Stock-Prediction-App",
   },
   {
-    name: "Trip Guide",
+    name: "3D Medieval Dungeon Game",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "First-person medieval style game in a vast 3D dungeon with a multitude of weapons, monsters, and bosses.",
     tags: [
       {
-        name: "nextjs",
+        name: "unity3d",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "csharp",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "gamedev",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: madewunity,
+    source_code_link: "https://github.com/Penguins478/3ddungeongame",
   },
 ];
 
