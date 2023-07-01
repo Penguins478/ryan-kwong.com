@@ -51,7 +51,28 @@ const About = () => {
         Computer Science. With a wide variety of technical skills, my passion lies in 
         developing autonomous robots, neural networks, and full stack applications.
         Moreover, I am confident in constructing reliable, scalable, and efficient
-        solutions to real-world challenges.
+        solutions to real-world challenges.  
+
+        
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        style={{ display: 'flex', alignItems: 'center' }}
+      >
+
+       Relevant Links: 
+       <span style={{ margin: '0 10px' }}></span>
+       <a href="https://github.com/Penguins478">
+						{/* <img alt = "Ryan Kwong's LinkedIn profile" class="intro-img" src=" images/linkedin.png"> */}
+            <img src="/src/assets/github.png" alt="Image description" style={{ width: '50px', height: 'auto' }}/>
+          </a>
+        <span style={{ margin: '0 10px' }}></span>
+       <a href="https://www.linkedin.com/in/ryandkwong/">
+						{/* <img alt = "Ryan Kwong's LinkedIn profile" class="intro-img" src=" images/linkedin.png"> */}
+            <img src="/src/assets/linkedin.png" alt="Image description" style={{ width: '50px', height: 'auto' }}/>
+          </a>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
