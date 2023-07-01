@@ -59,6 +59,29 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+       For a PDF copy of my resume, please check out this link <a href="../../Ryan_Kwong_Resume.pdf"
+        style={{
+          color: '#329fd2',
+          transition: 'color 0.3s ease',
+        }}
+        onMouseEnter={(e) => {
+          e.target.style.color = 'cyan';
+        }}
+        onMouseLeave={(e) => {
+          e.target.style.color = '#329fd2';
+        }}
+      >
+     here
+      </a>. 
+       
+
+        
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         style={{ display: 'flex', alignItems: 'center' }}
       >
 
