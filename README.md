@@ -1,3 +1,3 @@
 # MyNewWebsite
 
-Website domain coming soon...
+Visit my website here: [ryan-kwong.com](https://ryan-kwong.com)
