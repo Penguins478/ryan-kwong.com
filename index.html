@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4RGXLCVTHZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4RGXLCVTHZ');
+    </script>
+    <meta name="google-site-verification" content="5PWT6nZ8pA8dY8cjAhX1wKYAjIxeaYC0ariLVm9vKoY" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="author" content="Ryan Kwong">
+    <meta charset="UTF-8">
+    <meta name="description"
+      content="Ryan Kwong's personal website. Ryan Kwong is from San Francisco Bay Area and is currently attending Purdue University. He is a computer science major and is focusing his studies on software engineering. He has worked at Inogen and is in numerous tech clubs related to robotics, autonomy, and app development.">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164253178-1"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-164253178-1');
+    </script>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/logo.svg" /> -->
     <link rel="icon" type="image/svg+xml" href="src/assets/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryan Kwong</title>
   </head>
   <body>
     <div id="root"></div>
-    
-    <audio autoplay volume="0.01">
-      <source src="music.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html> 

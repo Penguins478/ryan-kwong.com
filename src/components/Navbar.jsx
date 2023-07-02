@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
@@ -9,6 +9,7 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [audioPlaying, setAudioPlaying] = useState(false); // Add a state variable for audio playback
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,6 +25,21 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const audioRef = useRef(null);
+
+  const toggleAudio = () => {
+    const audio = audioRef.current;
+    audio.volume = 0.075;
+
+    if (!audioPlaying) {
+      audio.play();
+      setAudioPlaying(true);
+    } else {
+      audio.pause();
+      setAudioPlaying(false);
+    }
+  };
 
   return (
     <nav
@@ -95,6 +111,14 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <audio ref={audioRef} src="../../music.mp3" />
+
+        <button
+          className='text-white text-[18px] font-medium cursor-pointer ml-4'
+          onClick={toggleAudio}
+        >
+          Toggle Music
+        </button>
     </nav>
   );
 };
