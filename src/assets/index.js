@@ -40,6 +40,7 @@ import stock from "./stock.png";
 import tetris from "./tetris.png";
 
 import linkedin from "./linkedin.png";
+import music from "./music.mp3";
 
 export {
   logo,
@@ -78,5 +79,6 @@ export {
   tripguide,
   madewunity,
   stock,
-  tetris
+  tetris,
+  music
 };
