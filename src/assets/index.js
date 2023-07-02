@@ -41,6 +41,7 @@ import tetris from "./tetris.png";
 
 import linkedin from "./linkedin.png";
 import music from "./music.mp3";
+import resume from "./Ryan_Kwong_Resume.pdf";
 
 export {
   logo,
@@ -80,5 +81,6 @@ export {
   madewunity,
   stock,
   tetris,
-  music
+  music,
+  resume
 };

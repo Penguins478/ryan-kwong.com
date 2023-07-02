@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { github, linkedin } from "../assets";
+import { github, linkedin, resume } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -61,7 +61,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       For a PDF copy of my resume, please check out this link <a href="../../Ryan_Kwong_Resume.pdf"
+       For a PDF copy of my resume, please check out this link <a href={resume}
         style={{
           color: '#329fd2',
           transition: 'color 0.3s ease',
