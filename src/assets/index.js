@@ -39,6 +39,8 @@ import madewunity from "./madewunity.png";
 import stock from "./stock.png";
 import tetris from "./tetris.png";
 
+import linkedin from "./linkedin.png";
+
 export {
   logo,
   backend,
@@ -46,6 +48,7 @@ export {
   mobile,
   web,
   github,
+  linkedin,
   menu,
   close,
   css,

@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { github, linkedin } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -89,12 +90,12 @@ const About = () => {
        <span style={{ margin: '0 10px' }}></span>
        <a href="https://github.com/Penguins478">
 						{/* <img alt = "Ryan Kwong's LinkedIn profile" class="intro-img" src=" images/linkedin.png"> */}
-            <img src="/src/assets/github.png" alt="Image description" style={{ width: '50px', height: 'auto' }}/>
+            <img src={github} alt="GitHub" style={{ width: '50px', height: 'auto' }}/>
           </a>
         <span style={{ margin: '0 10px' }}></span>
        <a href="https://www.linkedin.com/in/ryandkwong/">
 						{/* <img alt = "Ryan Kwong's LinkedIn profile" class="intro-img" src=" images/linkedin.png"> */}
-            <img src="/src/assets/linkedin.png" alt="Image description" style={{ width: '50px', height: 'auto' }}/>
+            <img src={linkedin} alt="LinkedIn" style={{ width: '50px', height: 'auto' }}/>
           </a>
       </motion.p>
 
