@@ -27,6 +27,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  nasa,
+  minitab,
+  c1,
   threejs,
   madewunity,
   stock,
@@ -143,6 +146,52 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Engineer Intern",
+    company_name: "Capital One",
+    icon: c1,
+    iconBg: "#003e5b",
+    date: "June 2024 - August 2024",
+    points: [
+      "Incoming Summer 2024",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Minitab",
+    icon: minitab,
+    iconBg: "#FFFFFF",
+    date: "January 2024 - May 2024",
+    points: [
+      "Developed a chatbot using React and Flask that guides users through the Minitab app and explains data visualizations",
+      "Experimenting with verifier chatbots to verify if the main chatbot is outputting reliable information",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "NASA",
+    icon: nasa,
+    iconBg: "#000000",
+    date: "August 2023 - December 2023",
+    points: [
+      "Fall 2023 Intern for NASA’s AR/VR R&D Team, focusing on developing the Mixed Reality Exploration Toolkit (MRET)",
+      "Simulating space exploration using Unity and C# to increase awareness and safety for real space voyages",
+      "Integrating Generative AI using Diffusion and GANs with PyTorch and CUDA to generate realistic 2D lunar images",
+      "Transforming 2D lunar images into 3D models (point clouds) using depth maps created using OpenCV to construct 3D space terrain in the VR space",
+    ],
+  },
+  {
+    title: "Data Science Researcher",
+    company_name: "Tesla",
+    icon: tesla,
+    iconBg: "#FFFFFF",
+    date: "August 2023 - May 2024",
+    points: [
+      "Developed an internal tool to determine the flowrate of physical parts from production stations in an Agile environment",
+      "Leveraged Python, LSTMs, and SQL to predict and verify flowrates of materials between factory lines",
+      "Compared LSTM model predictions with predictions made using linear regression (R^2 of 0.75) to verify goodness of fit"
+    ],
+  },
   {
     title: "Software Engineer Intern",
     company_name: "Beaverton Kitchen Cabinet and Stone, Inc.",

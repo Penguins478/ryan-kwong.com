@@ -30,6 +30,9 @@ import shopify from "./company/shopify.png";
 import bkc from "./company/bkc.png";
 import inogen from "./company/inogen.png";
 import tesla from "./company/tesla.png";
+import nasa from "./company/nasa.png";
+import minitab from "./company/minitab.png";
+import c1 from "./company/c1.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -82,5 +85,8 @@ export {
   stock,
   tetris,
   music,
-  resume
+  resume,
+  nasa,
+  minitab,
+  c1
 };
